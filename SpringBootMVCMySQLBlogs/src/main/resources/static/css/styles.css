@@ -1,0 +1,28 @@
+#main-link {
+	color: red;
+}
+
+#example-js {
+	color: blue;
+}
+
+#example-js :hover {
+  color: red;
+}
+
+#example-jQuery {
+	color: green;
+}
+
+#example-jQuery :hover {
+	color: yellow;
+}
+
+#post-list { 
+	cursor: progress; 
+}
+
+#about { 
+	cursor: help; 
+}
+ 

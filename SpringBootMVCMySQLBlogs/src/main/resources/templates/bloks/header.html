@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />	
+</head>
+
+<div th:fragment="header">
+	<div class="d-flex flex-column flex-md-row align-items-center   bg-success p-2 text-dark bg-opacity-10">
+		<a href="/" class="btn btn-outline-primary btn-rounded" title="Main page">Main</a>
+		<nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+			<a href="/blog" class="btn btn-outline-info btn-rounded" role="button" id="post-list" title="Posts">Posts</a>
+			<a href="/about" class="btn btn-outline-warning btn-rounded" role="button" id="about" title="About">About</a>
+		</nav>
+	</div>
+</div>
